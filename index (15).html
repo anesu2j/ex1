@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 7 Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .skill {
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+    .portfolio-item img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      padding: 10px 20px;
+      background: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About us</a>
+    <a href="#skills">Skills</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a small creative team dedicated to building beautiful websites and applications that deliver results.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <h3>HTML5</h3>
+      <p>Creating structured and semantic markup.</p>
+    </div>
+    <div class="skill">
+      <h3>CSS3</h3>
+      <p>Styling websites with modern techniques and animations.</p>
+    </div>
+    <div class="skill">
+      <h3>JavaScript</h3>
+      <p>Adding interactivity and dynamic behavior to web pages.</p>
+    </div>
+    <div class="skill">
+      <h3>Responsive Design</h3>
+      <p>Ensuring websites work well on all devices.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-item">
+      <img src="https://via.placeholder.com/300" alt="Project 1">
+    </div>
+    <div class="portfolio-item">
+      <img src="https://via.placeholder.com/300" alt="Project 2">
+    </div>
+    <div class="portfolio-item">
+      <img src="https://via.placeholder.com/300" alt="Project 3">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Anesu Joseph</h2>
+    <address>
+      123 Web Street<br>
+      Lublin, DevLand 45678<br>
+      Email: anesvox5@gmail.com
+    </address>
+    <form>
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="text" name="subject" placeholder="Subject" required>
+      <textarea name="message" rows="5" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+</body>
+</html>
